@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Aug 19 00:49:47 2026
+# Process ID         : 227377
+# Current directory  : /home/octaviom/Documentos/Digitales/system_verilog/sim_build
+# Command line       : xsim -mode tcl -source {xsim.dir/half_adder_sim/xsim_script.tcl}
+# Log file           : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.log
+# Journal file       : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.jou
+# Running On         : legion-GO
+# Platform           : cachyos
+# Operating System   : CachyOS
+# Processor Detail   : AMD Ryzen Z1 Extreme
+# CPU Frequency      : 4863.372 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 10081 MB
+# Swap memory        : 10081 MB
+# Total Virtual      : 20162 MB
+# Available Virtual  : 11174 MB
+#-----------------------------------------------------------
+source xsim.dir/half_adder_sim/xsim_script.tcl
+# xsim {half_adder_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+a b | sum carry
+1 0 | 1 0
+0 1 | 1 0
+$finish called at time : 20 ns : File "/home/octaviom/Documentos/Digitales/system_verilog/TB/half-adder/tb_half_adder.sv" Line 31
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Aug 19 00:49:50 2026...

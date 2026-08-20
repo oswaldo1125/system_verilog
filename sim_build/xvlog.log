@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/half-adder/half_adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/half-adder/tb_half_adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_half_adder
