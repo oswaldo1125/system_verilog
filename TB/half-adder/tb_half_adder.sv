@@ -1,5 +1,4 @@
 timeunit 1ns; timeprecision 1ps;
-
 module tb_half_adder;
 
   logic tb_a_i, tb_b_i;
