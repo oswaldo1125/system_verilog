@@ -1,5 +1,4 @@
 timeunit 1ns; timeprecision 1ps;
-
 module tb_fulladder;
 
   logic tb_a_i, tb_b_i, tb_cin_i;
@@ -24,7 +23,7 @@ module tb_fulladder;
     tb_b_i   = 0;
     tb_cin_i = 1;
 
-    //prueva de la suma de entrada 
+    //prueva de la suma de entrada
     #10 tb_a_i = 1;
     tb_b_i   = 1;
     tb_cin_i = 0;

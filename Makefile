@@ -1,6 +1,6 @@
 #============= variables flecsibles para nominar la carpeta y el modulo ===========
-MODULE     ?=half_adder
-MODULE_DIR ?=half-adder
+MODULE     ?=practice_1
+MODULE_DIR ?=bit_swizzling
 
 #============ directorios del los archivos RTL y TB ==============================
 RTL_SRC = HW/$(MODULE_DIR)/$(MODULE).sv
