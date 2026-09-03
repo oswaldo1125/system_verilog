@@ -1,0 +1,1 @@
+"tb_asincroset_register" -s "asincroset_register_sim" -debug "typical" 

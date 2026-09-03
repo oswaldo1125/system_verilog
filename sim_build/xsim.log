@@ -3,34 +3,49 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Fri Aug 28 02:02:06 2026
-# Process ID         : 252436
+# Start of session at: Wed Sep  2 18:17:10 2026
+# Process ID         : 43082
 # Current directory  : /home/octaviom/Documentos/Digitales/system_verilog/sim_build
-# Command line       : xsim -mode tcl -source {xsim.dir/practice_1_sim/xsim_script.tcl}
+# Command line       : xsim -mode tcl -source {xsim.dir/asincroset_register_sim/xsim_script.tcl}
 # Log file           : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.log
 # Journal file       : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.jou
 # Running On         : legion-GO
 # Platform           : cachyos
 # Operating System   : CachyOS
 # Processor Detail   : AMD Ryzen Z1 Extreme
-# CPU Frequency      : 1670.476 MHz
+# CPU Frequency      : 4090.159 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 10081 MB
 # Swap memory        : 10081 MB
 # Total Virtual      : 20162 MB
-# Available Virtual  : 9500 MB
+# Available Virtual  : 16213 MB
 #-----------------------------------------------------------
-source xsim.dir/practice_1_sim/xsim_script.tcl
-# xsim {practice_1_sim} -autoloadwcfg -runall
+source xsim.dir/asincroset_register_sim/xsim_script.tcl
+# xsim {asincroset_register_sim} -autoloadwcfg -runall
 Time resolution is 1 ps
 run -all
-----------------------------------------
-time (ns) | in_data (hex) | out_data(hex) 
------------------------------------------
-0 ps | 0xaabbccdd | 0xddccbbaa
-10000 ps | 0x12345678 | 0x78563412
---------------------------------------------
-$finish called at time : 20 ns : File "/home/octaviom/Documentos/Digitales/system_verilog/TB/bit_swizzling/tb_practice_1.sv" Line 27
+time		clk	rst	d		q
+0		0	0	0000		xxxx
+2000		0	1	0000		0000
+5000		1	1	0000		0000
+10000		0	1	0000		0000
+12000		0	0	0000		0000
+15000		1	0	0000		0000
+20000		0	0	1010		0000
+25000		1	0	1010		1010
+30000		0	0	0101		1010
+35000		1	0	0101		0101
+40000		0	0	1111		0101
+44000		0	1	1111		0000
+45000		1	1	1111		0000
+50000		0	0	1111		0000
+55000		1	0	1111		1111
+60000		0	0	0011		1111
+65000		1	0	0011		0011
+70000		0	0	0011		0011
+---------------------------------------
+Simulacion finalizada exitosamente.
+$finish called at time : 75 ns : File "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv" Line 49
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Aug 28 02:02:09 2026...
+INFO: [Common 17-206] Exiting xsim at Wed Sep  2 18:17:13 2026...

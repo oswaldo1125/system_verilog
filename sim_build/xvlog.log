@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/bit_swizzling/practice_1.sv" into library work
-INFO: [VRFC 10-311] analyzing module practice_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/bit_swizzling/tb_practice_1.sv" into library work
-INFO: [VRFC 10-311] analyzing module tb_practice_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/register/asincroset_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module asincroset_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_asincroset_register
