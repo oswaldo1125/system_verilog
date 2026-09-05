@@ -1,0 +1,1 @@
+"tb_reset_register" -s "reset_register_sim" -debug "typical" 

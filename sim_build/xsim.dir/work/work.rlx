@@ -2,5 +2,5 @@
 2020.2
 Nov  8 2024
 22:36:55
-/home/octaviom/Documentos/Digitales/system_verilog/HW/register/asincroset_register.sv,1788392550,systemVerilog,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv,,$unit_asincroset_register_sv_3518038162;asincroset_register,,,,,,,,
-/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv,1788394605,systemVerilog,,,,tb_asincroset_register,,,,,,,,
+/home/octaviom/Documentos/Digitales/system_verilog/HW/register/reset_register.sv,1788593248,systemVerilog,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,,$unit_reset_register_sv_3264919294;reset_register,,,,,,,,
+/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,1788595960,systemVerilog,,,,tb_reset_register,,,,,,,,

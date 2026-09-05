@@ -1,7 +1,7 @@
 Vivado Simulator v2024.2.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /home/octaviom/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab tb_asincroset_register -s asincroset_register_sim -debug typical 
+Running: /home/octaviom/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab tb_reset_register -s reset_register_sim -debug typical 
 Multi-threading is on. Using 14 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -9,6 +9,6 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module work.asincroset_register
-Compiling module work.tb_asincroset_register
-Built simulation snapshot asincroset_register_sim
+Compiling module work.reset_register
+Compiling module work.tb_reset_register
+Built simulation snapshot reset_register_sim

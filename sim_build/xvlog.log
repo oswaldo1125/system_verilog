@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/register/asincroset_register.sv" into library work
-INFO: [VRFC 10-311] analyzing module asincroset_register
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_asincroset_register.sv" into library work
-INFO: [VRFC 10-311] analyzing module tb_asincroset_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/register/reset_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module reset_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_reset_register

@@ -1,5 +1,5 @@
 #============= variables flecsibles para nominar la carpeta y el modulo ===========
-MODULE     ?=asincroset_register
+MODULE     ?=reset_register
 MODULE_DIR ?=register
 
 #============ directorios del los archivos RTL y TB ==============================

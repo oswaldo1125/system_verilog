@@ -1,7 +1,0 @@
-Running: xsim.dir/asincroset_register_sim/xsimk -runall -simmode gui -wdb asincroset_register_sim.wdb -simrunnum 0 -socket 57703
-Design successfully loaded
-Design Loading Memory Usage: 180632 KB (Peak: 180688 KB)
-Design Loading CPU Usage: 720 ms
-Simulation completed
-Simulation Memory Usage: 262628 KB (Peak: 319900 KB)
-Simulation CPU Usage: 730 ms
