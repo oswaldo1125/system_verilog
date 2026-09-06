@@ -3,39 +3,43 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sat Sep  5 21:01:18 2026
-# Process ID         : 139764
+# Start of session at: Sun Sep  6 12:53:11 2026
+# Process ID         : 175694
 # Current directory  : /home/octaviom/Documentos/Digitales/system_verilog/sim_build
-# Command line       : xsim -mode tcl -source {xsim.dir/flip_flop_sim/xsim_script.tcl}
+# Command line       : xsim -mode tcl -source {xsim.dir/enabled_register_sim/xsim_script.tcl}
 # Log file           : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.log
 # Journal file       : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.jou
 # Running On         : legion-GO
 # Platform           : cachyos
 # Operating System   : CachyOS
 # Processor Detail   : AMD Ryzen Z1 Extreme
-# CPU Frequency      : 3260.827 MHz
+# CPU Frequency      : 1327.883 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 10081 MB
 # Swap memory        : 10081 MB
 # Total Virtual      : 20162 MB
-# Available Virtual  : 12709 MB
+# Available Virtual  : 9828 MB
 #-----------------------------------------------------------
-source xsim.dir/flip_flop_sim/xsim_script.tcl
-# xsim {flip_flop_sim} -autoloadwcfg -runall
+source xsim.dir/enabled_register_sim/xsim_script.tcl
+# xsim {enabled_register_sim} -autoloadwcfg -runall
 Time resolution is 1 ps
 run -all
----------------------------------------------------------
-time		clk	d		q
----------------------------------------------------------
-0		0	0000		xxxx
-5000		1	0000		0000
-10000		0	0001		0000
-15000		1	0001		0001
-20000		0	0101		0001
-25000		1	0101		0101
+-----------------------------------------------
+time		clk	rst	en	d		q
+-----------------------------------------------
+0		0	0	0	1011		xxxx
+5000		1	0	0	1011		xxxx
+10000		0	0	1	1011		xxxx
+15000		1	0	1	1011		1011
+20000		0	0	1	0011		1011
+25000		1	0	1	0011		0011
+30000		0	1	1	0011		0000
+35000		1	1	1	0011		0000
+40000		0	1	1	1010		0000
+45000		1	1	1	1010		0000
 ---------------------------------------------------------
 simulacion finalizada correctamente
-$finish called at time : 30 ns : File "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_flip_flop.sv" Line 39
+$finish called at time : 50 ns : File "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_enabled_register.sv" Line 56
 exit
-INFO: [Common 17-206] Exiting xsim at Sat Sep  5 21:01:21 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Sep  6 12:53:13 2026...

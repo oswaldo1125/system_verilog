@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/register/flip_flop.sv" into library work
-INFO: [VRFC 10-311] analyzing module flip_flop
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_flip_flop.sv" into library work
-INFO: [VRFC 10-311] analyzing module tb_flip_flop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/HW/register/enabled_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module enabled_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_enabled_register.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_enabled_register
