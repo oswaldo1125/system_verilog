@@ -3,23 +3,23 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sat Sep  5 02:13:05 2026
-# Process ID         : 103754
+# Start of session at: Sat Sep  5 21:01:18 2026
+# Process ID         : 139764
 # Current directory  : /home/octaviom/Documentos/Digitales/system_verilog/sim_build
-# Command line       : xsim -mode tcl -source {xsim.dir/reset_register_sim/xsim_script.tcl}
+# Command line       : xsim -mode tcl -source {xsim.dir/flip_flop_sim/xsim_script.tcl}
 # Log file           : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.log
 # Journal file       : /home/octaviom/Documentos/Digitales/system_verilog/sim_build/xsim.jou
 # Running On         : legion-GO
 # Platform           : cachyos
 # Operating System   : CachyOS
 # Processor Detail   : AMD Ryzen Z1 Extreme
-# CPU Frequency      : 2072.702 MHz
+# CPU Frequency      : 3260.827 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 10081 MB
 # Swap memory        : 10081 MB
 # Total Virtual      : 20162 MB
-# Available Virtual  : 13288 MB
+# Available Virtual  : 12709 MB
 #-----------------------------------------------------------
-source xsim.dir/reset_register_sim/xsim_script.tcl
+source xsim.dir/flip_flop_sim/xsim_script.tcl
 run -all

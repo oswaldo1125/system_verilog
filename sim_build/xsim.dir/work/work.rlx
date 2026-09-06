@@ -2,5 +2,5 @@
 2020.2
 Nov  8 2024
 22:36:55
-/home/octaviom/Documentos/Digitales/system_verilog/HW/register/reset_register.sv,1788593248,systemVerilog,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,,$unit_reset_register_sv_3264919294;reset_register,,,,,,,,
-/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_reset_register.sv,1788595960,systemVerilog,,,,tb_reset_register,,,,,,,,
+/home/octaviom/Documentos/Digitales/system_verilog/HW/register/flip_flop.sv,1788649501,systemVerilog,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_flip_flop.sv,/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_flip_flop.sv,,$unit_flip_flop_sv_2666240019;flip_flop,,,,,,,,
+/home/octaviom/Documentos/Digitales/system_verilog/TB/register/tb_flip_flop.sv,1788663652,systemVerilog,,,,tb_flip_flop,,,,,,,,
